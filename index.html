@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>探索電腦組件的奇妙世界</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" lang="zh-Hant" content="開源的 x/html 和 css 模板">
+<meta name="author" content="mlp design">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--開始包裝-->
+<div id="wrapper">
+
+<!--開始主體-->
+<div id="body">
+
+<!--開始標頭-->
+<div id="banner">
+<h1>電腦零件<em>介紹網</em> 2.0</h1>
+<p>探索電腦組件的奇妙世界</p>
+<!-- 選單 -->
+<label for="show-menu" class="responsive">&#9776;</label>
+<input type="checkbox" id="show-menu" role="button">
+<ul id="topnav">
+<li><a href="ifame/home.html" class="active"  target="mainframe" onclick="activateTab(this)">首頁</a></li>
+<li><a href="ifame/CPU.html" target="mainframe" onclick="activateTab(this)">中央處理器 (CPU)</a></li>
+<li><a href="ifame/GPU.html" target="mainframe" onclick="activateTab(this)">圖形處理器 (GPU)</a></li>
+<li><a href="ifame/motherbroad.html" target="mainframe" onclick="activateTab(this)">主機板</a></li>
+<li><a href="ifame/RAM.html" target="mainframe" onclick="activateTab(this)">內存 (RAM)</a></li>
+<li><a href="ifame/SSD.html" target="mainframe" onclick="activateTab(this)">儲存</a></li>
+<li><a href="ifame/PSU.html" target="mainframe" onclick="activateTab(this)">電源供應器 (PSU)</a></li>
+<li><a href="ifame/case.html" target="mainframe" onclick="activateTab(this)">機殼</a></li>
+<li><a href="ifame/cooling.html" target="mainframe" onclick="activateTab(this)">冷卻系統</a></li>
+<li><a href="ifame/suggestion.html" target="mainframe" onclick="activateTab(this)">購物建議</a></li>
+</ul>
+<!-- 結束選單 -->
+</div>
+<!--標頭結束-->
+	<!--開始側邊欄-->
+	<div id="sidebar">
+		<h2>一個電腦零件的懶人包網站</h2>
+		<p>歡迎來到電腦零件的奇妙探索之旅！我們的目標是為您打開電腦組件的神秘面紗，讓您深入了解中央處理器、圖形處理器、主機板等各種關鍵元件。無論您是電腦新手還是資深愛好者，我們的介紹旨在提供有價值的資訊，助您在選擇、了解和使用電腦零件方面更加自信。探索我們的頁面，開啟電腦科技的奇幻之門吧！</p>
+		<h2>友站連結</h2>
+		<ul>
+			<li><a target="_blank" href="https://pp05050.github.io/-Lazy-bag/">AI發展史BY p teams</a></li>
+		</ul>
+		<h2>推薦電腦延伸閱讀</h2>
+		<ul>
+			<li><a href="https://tw.msi.com/Landing/how-to-build-a-pc" target="_blank">適合初學者的完整PC 組建指南#YesWeBuild | MSI</a></li>
+			<li><a href="https://www.youtube.com/watch?v=1Con073YKgE&t=95s">2023年幫朋友組電腦全程記錄分享！組裝其實不難，但有一些細節是要注意的！</a></li>
+
+		</ul>
+		<h2>電腦零件購買、查詢連結</h2>
+		<ul>
+			<li><a target="_blank" href="https://coolpc.com.tw/tw/">原價屋</a></li>
+			<li><a target="_blank" href="https://24h.pchome.com.tw/">PChome 24h購物</a></li>
+   			<li><a target="_blank" href="https://www.mydrivers.com/zhuanti/tianti/gpu/index.html">桌面显卡性能天梯图</a></li>
+   			<li><a target="_blank" href="https://www.mydrivers.com/zhuanti/tianti/cpu/index.html">桌面CPU性能天梯图</a></li> 	
+   			<li><a target="_blank" href="https://www.nvidia.com/zh-tw/">NVIDIA官方網站</a></li>
+   			<li><a target="_blank" href="https://www.intel.com.tw/content/www/tw/zh/homepage.html">Intel | 資料中心解決方案、物聯網和電腦創新</a></li>
+   			<li><a target="_blank" href="https://www.amd.com/zh-tw.html">AMD ׀ 共同超越，一起成就_AI</a></li>
+		</ul>		
+	</div>
+	<div class="clear"></div>
+	<!--側邊欄結束-->
+
+	<!--開始容器-->
+	<div id="container">
+			
+		<!--開始內容-->
+		<div id="content">
+			<iframe src="ifame/home.html" name="mainframe" id="mainframe"
+    width="100%" marginwidth="0" marginheight="0"
+    scrolling="No" frameborder="0"
+    onload="Javascript:SetCwinHeight()">
+</iframe>
+		</div>
+		<!--內容結束-->
+
+	</div>
+	<!--容器結束-->
+
+</div>
+<!--主體結束-->
+
+	<!--開始腳注-->
+	<div id="footer">
+		<span class="left">2023 &copy; 版權所有 <a href="#">CCDM-pc-Master</a>。保留所有權利。</span>
+		<span class="right"><a href="/name.html" target="mainframe">聯絡我們</a> | <a href="#">網站地圖</a></span>
+		<p class="show-footer">2023 &copy; 版權所有 <a href="#">CCDM-pc-Master</a>。保留所有權利。<br /><a href="#">聯絡我們</a> | <a href="#">網站地圖</a></p>
+	</div>
+	<!--腳注結束-->	
+
+</div>
+<!--包裝結束-->
+
+	<!--開始信用-->
+	<!--//根據 CC-NC 3.0，此部分必須保持不變，不得隱藏。//-->
+	<div id="credits">
+	<span><a href="http://www.mlpdesign.net" title="CSS &amp; HTML by MLP Design.net">CSS &amp; HTML</a> 由 MLP Design 設計<br />根據 <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">創用 CC 姓名-非商業性 3.0</a> 授權。</span>
+	</div>
+	<!--信用結束-->
+	
+</body>
+
+</html>
+
+<script type="text/javascript">
+	function SetCwinHeight() {
+		var iframeid = document.getElementById("mainframe"); //iframe id  
+		if (document.getElementById) {
+			if (iframeid && !window.opera) {
+				if (iframeid.contentDocument && iframeid.contentDocument.body.offsetHeight) {
+					iframeid.height = iframeid.contentDocument.body.offsetHeight;
+				} else if (iframeid.Document && iframeid.Document.body.scrollHeight) {
+					iframeid.height = iframeid.Document.body.scrollHeight;
+				}
+			}
+		}
+	}
+	</script>
+
+<script>
+    function activateTab(tab) {
+      // 移除所有標籤的 active 類
+      var tabs = document.querySelectorAll('#topnav a');
+      tabs.forEach(function(tab) {
+        tab.classList.remove('active');
+      });
+
+      // 為點擊的標籤添加 active 類
+      tab.classList.add('active');
+    }
+  </script>

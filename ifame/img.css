@@ -1,0 +1,18 @@
+@font-face {
+	font-family:'GenSenRounded';
+	src: url("../font/GenSenMaruGothicTW-Regular.ttf")format("truetype");
+
+}
+
+img{
+	float: right;
+	height: 256px;
+	margin: 10px;
+}
+.cpu-images{
+	height: 125px;
+}
+
+body{
+	font-family: 'GenSenRounded',sans-serif;
+}
