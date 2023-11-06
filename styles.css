@@ -7,7 +7,10 @@ Author URI: http://www.mlpdesign.net/
 
 /* Global Settings */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
+@font-face {
+  font-family: naikaifont;
+  src: url(https://cdn.jsdelivr.net/gh/max32002/naikaifont@1.0/webfont/NaikaiFont-Regular-Lite.woff2) format("woff2");
+}
 
 
 body {
