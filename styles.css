@@ -9,16 +9,17 @@ Author URI: http://www.mlpdesign.net/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
-
-  @font-face {
-	font-family:'GenSenRounded';
-	src: url("/font/GenSenMaruGothicTW-Regular.ttf")format("truetype");
-
-}
-
+  
   @font-face {
 	font-family:'wt040';
 	src: url("/font/wt040.ttf")format("truetype");
+
+}
+
+
+  @font-face {
+	font-family:'GenSenRounded';
+	src: url("../font/GenSenMaruGothicTW-Regular.ttf")format("truetype");
 
 }
 
@@ -108,7 +109,7 @@ img{
 	background: -ms-linear-gradient(top, #abab83 0%, #abab83 0%, #abab83 50%, #a1a172 51%, #a1a172 100%);
 	background: linear-gradient(to bottom, #abab83 0%, #abab83 0%, #abab83 50%, #a1a172 51%, #a1a172 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abab83', endColorstr='#a1a172', GradientType=0 );
-	font-family:'wt040';
+	font-family: 'wt040';
 }
 
 #banner h1 {
@@ -194,7 +195,7 @@ ul#topnav li a:hover {
 	box-shadow: 25px 0px 25px -25px rgba(0, 0, 0, 0.45),
 		-25px 0px 25px -25px rgba(0, 0, 0, 0.45);
 	position: relative;
-	font-family:'GenSenRounded';
+	font-family: 'GenSenRounded';
 }
 
 
