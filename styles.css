@@ -16,6 +16,12 @@ Author URI: http://www.mlpdesign.net/
 
 }
 
+  @font-face {
+	font-family:'wt040';
+	src: url("/font/wt040.ttf")format("truetype");
+
+}
+
 
 body {
 background: #000;
