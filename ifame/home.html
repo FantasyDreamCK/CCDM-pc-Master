@@ -13,7 +13,39 @@
 
 <!--開始主體-->
 <div id="body">
+
+
 			<div class="item">
+				 <h1>查詢</h1>
+  				  <input type="text" id="query" placeholder="輸入中文詞語">
+  				  <button onclick="search()">搜尋</button>
+  					 <p id="result"></p>
+    <img id="resultImage" style="cursor: pointer;"></img>
+    這個商品的特色是什麼？
+    如何下單？
+    運送時間是多久？
+    如何辦理退換貨？
+    如何聯繫客服？
+    是否有正在進行的促銷活動？
+    <script>
+        function search() {
+            var query = document.getElementById('query').value;
+            var url = 'https://script.google.com/macros/s/AKfycbwwOnY9BZ_MmtXpoAyZi5CoKuvzTU6zE5mt12BA1Lc67q04e17eZUWjD4ixQ_fLb2zffA/exec?q=' + encodeURIComponent(query);
+
+            fetch(url)
+                .then(response => response.text())
+                .then(text => {
+                    document.getElementById('result').innerText = text;
+                    // 將圖片的 src 設定為搜尋結果
+                    document.getElementById('resultImage').src = text;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+			</div>
+			<div class="item">
+
+				
 				<h1>為甚麼要認識電腦零件</h1>
 
 				<img src="https://storage-asset.msi.com/event/2021/cnd/how-to-build-a-pc/images//pc_0.png" alt="">
